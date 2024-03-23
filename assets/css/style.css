@@ -10,33 +10,54 @@
 
 /* General styles */
 body {
+    
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #cccccc;
-    font-family: 'Bitter', sans-serif;
-    background-image: url(../images/manuscript.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */ 
+    color: #cccccc;
+    font-family: 'Bitter', sans-serif;
+    
     
 }
 
 
 /* Header */
-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
+
+nav{
+    background-color:#ffffff;
+    box-shadow: 3px 3px 5px black;
     width: 100%;
-    box-shadow: 0 2px 2px #cccccc
+    z-index: 99;
     
 }
-header a {
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30 px;
     text-decoration: none;
-    color: inherit;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+nav li:first-child{
+    margin-right: auto;
 }
 h1 {
     font-family: 'Anton', sans-serif;
@@ -49,16 +70,27 @@ h1 {
     letter-spacing: 2px;
     list-style-type: none;
 }
+#menu > li {
+    margin-bottom: 1em;
+}
 
 
 
 /* Main content */
  main {
-    background-color: aliceblue;
+    
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
  }
-
+/* manuscript */
+#manuscript {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/manuscript.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /* Footer */
 footer {
     background-color: #894074;
