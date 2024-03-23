@@ -24,6 +24,9 @@ body {
 header {
     background-color: #894074;
 }
+h1 {
+    font-family: 'Anton', sans-serif;
+}
 
 /* Main content */
  main {
