@@ -16,6 +16,10 @@ body {
     /* Generic project styles */
     color: #cccccc;
     font-family: 'Bitter', sans-serif;
+    background-image: url(../images/manuscript.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -40,6 +44,14 @@ h1 {
     letter-spacing: 2px;
     color: #894074
 }
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+
+
 /* Main content */
  main {
     background-color: aliceblue;
