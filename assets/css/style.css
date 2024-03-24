@@ -27,7 +27,7 @@ body {
 
 header {
     background-color:whitesmoke;
-    box-shadow: 3px 3px 5px #454040;   
+    box-shadow: 3px 3px 5px #7c5371;   
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -35,9 +35,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    
-    
-    
+    height: 10%;
+    font-size:large;
+      
 }
     
 header a {
@@ -79,16 +79,14 @@ nav a {
 nav a:hover{
     background-color: rgba(137, 64, 116, 0.534);
 }
-nav li:first-child{
-    margin-right: auto;
-}
+
 .sidebar {
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
-    width: 200px;
-    z-index: 999;
+    width: 300px;
+    z-index: 99;
     background-color: rgba(137, 64, 116, 0.534);
     backdrop-filter:blur(10px);
     box-shadow: -10px 0 10px #454040;
