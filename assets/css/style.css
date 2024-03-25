@@ -18,11 +18,9 @@ body {
 /* Header */
 header {
     /* Make header element take up any surplus space to push main body and footer down */
-    min-height: 20vh;
+    min-height: 10vh;
     flex: 0 0 auto;
-  
 
-   
     
 }
 
@@ -105,4 +103,5 @@ nav a:hover{
   /* Footer */
   footer {
     background-color:#894074;
+    min-height: 5vh;
   }
