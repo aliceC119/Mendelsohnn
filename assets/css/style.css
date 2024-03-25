@@ -87,14 +87,15 @@ nav a:hover{
     right: 0;
     height: 100vh;
     width: 200px;
-    background-color: #89407444;
+    background-color: #d6ccd46e;
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgb(84, 71, 71);
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;   
+    justify-content: flex-start; 
+    
   }
   .sidebar li{
     width: 100%;
@@ -110,9 +111,8 @@ nav a:hover{
     background-repeat: no-repeat;
     background-position: center;
     flex:1 0 auto;
-  
- 
   }
+
   /* Footer */
   footer {
     background-color:#894074;
@@ -137,6 +137,7 @@ nav a:hover{
     .sidebar {
         display: none;
     }
+    
   }
   /* Large devices (laptops and desltops, 992px and up) */
   @media screen and (min-width: 992px) {
