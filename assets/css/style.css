@@ -19,9 +19,7 @@ body {
 header {
     /* Make header element take up any surplus space to push main body and footer down */
     min-height: 10vh;
-    flex: 0 0 auto;
-
-    
+    flex: 0 0 auto; 
 }
 
 h1 {
@@ -31,7 +29,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: xx-large;
-    align-items: b;
+    margin-bottom: 1em;
     
 }
 
@@ -138,6 +136,13 @@ nav a:hover{
     }
     .sidebar {
         display: none;
+    }
+  }
+  /* Large devices (laptops and desltops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    nav a {
+        font-size: large;
+        
     }
   }
     /* Header */
