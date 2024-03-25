@@ -10,132 +10,99 @@
 
 /* General styles */
 body {
-    
     min-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */ 
-    
-   
 }
-
 
 /* Header */
-
 header {
-    background-color:whitesmoke;
-    box-shadow: 3px 3px 5px #7c5371;   
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    height: 10%;
-    font-size:large;
-      
-}
+    /* Make header element take up any surplus space to push main body and footer down */
+    min-height: 20vh;
+    flex: 0 0 auto;
+  
+
+   
     
-header a {
-    text-decoration: none;
-    color: inherit;  
 }
 
 h1 {
+    color: #894074;
+    background-color: white;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #894074;
+    letter-spacing: 5px;
+    font-size: xx-large;
+    align-items: b;
     
 }
-nav { font-family: 'Bitter', sans-serif;
-    color: #894074;
+
+/* Navbar with a sidebar feature */
+nav {
+    background-color: white;
+    box-shadow: rgb(77, 69, 69)
 }
 
-
-nav ul{
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    align-items: bottom;
-    gap: 10px;
+    align-items: center;
+    font-family: 'Bitter', sans-serif;
+    background-color: white;
+    font-size: large;
+    
+    
 }
 nav li{
     height: 50px;
+    
 }
-nav a {
+nav a{
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
     display: flex;
     align-items: center;
-    color:#894074;
+    color: #894074;
 }
 nav a:hover{
-    background-color: rgba(137, 64, 116, 0.534);
+    background-color:whitesmoke;
 }
-
-.sidebar {
+.sidebar{
     position: fixed;
-    top: 0;
+    top: 0; 
     right: 0;
     height: 100vh;
-    width: 300px;
-    z-index: 99;
-    background-color: rgba(137, 64, 116, 0.534);
-    backdrop-filter:blur(10px);
-    box-shadow: -10px 0 10px #454040;
+    width: 250px;
+    background-color: #89407444;
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgb(84, 71, 71);
+    list-style: none;
     display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    
-}
-.sidebar li{
+     
+  }
+  .sidebar li{
     width: 100%;
-    
-}
-.sidebar a{
+  }
+  .sidebar a{
     width: 100%;
-    color: #cccccc;
-   
-    
-}
-
-#menu {
-    font-size: 100%;
-    letter-spacing: 2px;
-    list-style-type: none;
-}
-#menu > li {
-    margin-bottom: 1em;
-}
-
-
-
-/* Main content */
- main {
-    
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
- }
-/* manuscript */
-#manuscript {
-    height: 1000px;
-    width: 100%;
+  }
+  /* Main content */
+  main {
     background-image: url(../images/manuscript.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-    
-}
-/* Footer */
-footer {
-    background-color: #894074;
-}
+    flex:1 0 auto;
+  
+ 
+  }
+  /* Footer */
+  footer {
+    background-color:#894074;
+  }
