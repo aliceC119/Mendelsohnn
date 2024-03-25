@@ -44,6 +44,7 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: flex;
+    
 }
 
 #nav-toggle {
@@ -53,6 +54,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     color:#894074;
+    padding-right: 1rem;
 }
 
 nav ul {
@@ -125,12 +127,16 @@ nav a:hover{
         display: flex;
         position: relative;
         width: fit-content;
-        padding-right: 0rem;
-        letter-spacing: 1px;
-        font-size: small;
+        padding-right: 2rem;
+        letter-spacing: 0px;
+        font-size: smaller;
+        margin: 0 -1rem;
     }
     
     .nav-toggle-label {
+        display: none;
+    }
+    .sidebar {
         display: none;
     }
   }
