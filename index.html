@@ -22,6 +22,7 @@
 <header>
    <a href="index.html"></a>
    <h1 id="logo">My personal exploration </h1>
+   
     <nav>
         <ul id="menu" class="sidebar">
             <li onclick="hideSidebar()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
@@ -41,7 +42,8 @@
             <li><a href="#">Mendelssohn</a></li>
             <li><a href="#">Conclusion</a></li>
             <li><a href="#">Contact</a></li>
-            <li onclick="showSidebar()"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></label>
         </ul>
 </nav>
 <script>
