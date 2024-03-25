@@ -23,7 +23,7 @@ header {
     padding: 0 1rem;
     z-index: 99;
     position: center;
-     
+
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
     letter-spacing: 5px;
     font-size: xx-large;
     margin-bottom: 1em;
-    
+
 }
 
 /* Navbar with a sidebar feature */
@@ -46,7 +46,7 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: flex;
-    
+
 }
 
 #nav-toggle {
@@ -55,7 +55,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color:#894074;
+    color: #894074;
     padding-right: 1rem;
 }
 
@@ -69,11 +69,13 @@ nav ul {
     background-color: white;
     font-size: large;
 }
-nav li{
+
+nav li {
     height: 50px;
-    
+
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -82,12 +84,13 @@ nav a{
     color: #894074;
 }
 
-nav a:hover{
-    background-color:whitesmoke;
+nav a:hover {
+    background-color: whitesmoke;
 }
-.sidebar{
+
+.sidebar {
     position: fixed;
-    top: 0; 
+    top: 0;
     right: 0;
     height: 100vh;
     width: 200px;
@@ -98,25 +101,29 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start; 
-    
-  }
-  .sidebar li{
+    justify-content: flex-start;
+
+}
+
+.sidebar li {
     width: 100%;
-  }
-  .sidebar a{
+}
+
+.sidebar a {
     width: 100%;
     display: flex;
-  }
-  /* Main content */
-  main {
-    
-    flex:1 0 auto;
+}
+
+/* Main content */
+main {
+
+    flex: 1 0 auto;
     margin-top: 50px;
-  }
-  /* music section */
+}
+
+/* music section */
 #music {
-    height:600px;
+    height: 600px;
     width: 100%;
     background-image: url(../images/music.jpg);
     background-size: cover;
@@ -124,16 +131,46 @@ nav a:hover{
     background-position: center;
 }
 
-    /* aboutme section */
+/* purpose section */
+#purpose {
+    width: 90%;
+    margin: 20px auto;
+}
 
-  /* Footer */
-  footer {
-    background-color:#894074;
+/* aboutme section */
+#aboutme {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: #8846796e;
+    backdrop-filter: blur(12px);
+    font-size: 80%;
+    position: fixed;
+    bottom: 30px;
+    width: 60%;
+    min-height: 200px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: antiquewhite;
+
+}
+
+/* Footer */
+footer {
+    background-color: #894074;
     min-height: 5vh;
     flex: 0 0 auto;
-  }
-  /* Media query: tablets and larger , 768px and up) */
-  @media screen and (min-width: 768px) {
+}
+
+/* Media query: tablets and larger , 768px and up) */
+@media screen and (min-width: 768px) {
     nav a {
         display: flex;
         position: relative;
@@ -143,22 +180,51 @@ nav a:hover{
         font-size: smaller;
         margin: 0 -1rem;
     }
-    
+
     .nav-toggle-label {
         display: none;
     }
+
     .sidebar {
         display: none;
     }
-    
-  }
-  /* Large devices (laptops and desltops, 992px and up) */
-  @media screen and (min-width: 992px) {
+
+    #cover-text {
+        width: 300px;
+        left: 100px;
+        font-family: 'Bitter';
+        font-size: 100%;
+        position: fixed;
+        bottom: 400px;
+        width: 30%;
+        left:0%;
+        min-height: 300px;
+        padding-top: 40px;
+        padding-left: 10px;
+
+    }
+}
+
+/* Large devices (laptops and desltops, 992px and up) */
+@media screen and (min-width: 992px) {
     nav a {
         font-size: large;
-        
+
     }
-  }
-    /* Header */
-    
-        
+    #cover-text {
+        width: 300px;
+        left: 100px;
+        font-family: 'Bitter';
+        font-size: 100%;
+        position: fixed;
+        bottom: 200px;
+        width: 30%;
+        left:0%;
+        min-height: 300px;
+        padding-top: 80px;
+        padding-left: 10px;
+
+    }
+}
+
+/* Header */
