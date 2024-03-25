@@ -18,8 +18,12 @@ body {
 /* Header */
 header {
     /* Make header element take up any surplus space to push main body and footer down */
-    min-height: 10vh;
-    flex: 0 0 auto; 
+    min-height: 5vh;
+    flex: 0 0 auto;
+    padding: 0 1rem;
+    z-index: 99;
+    position: center;
+     
 }
 
 h1 {
@@ -106,12 +110,21 @@ nav a:hover{
   }
   /* Main content */
   main {
-    background-image: url(../images/manuscript.jpg);
+    
+    flex:1 0 auto;
+    margin-top: 50px;
+  }
+  /* music section */
+#music {
+    height:600px;
+    width: 100%;
+    background-image: url(../images/music.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    flex:1 0 auto;
-  }
+}
+
+    /* aboutme section */
 
   /* Footer */
   footer {
