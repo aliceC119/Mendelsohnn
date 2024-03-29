@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -26,6 +27,7 @@ header {
 
 }
 
+
 h1 {
     color: #894074;
     background-color: white;
@@ -34,6 +36,42 @@ h1 {
     letter-spacing: 5px;
     font-size: xx-large;
     margin-bottom: 1em;
+
+}
+#cover-text > h2 {
+    
+    background-color: #8846796e;
+    backdrop-filter: blur(12px);
+    width: 250px;
+    left: 100px;
+    font-family: 'Style script';
+    font-size: 200%;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 150px;
+    color: antiquewhite;
+    left:0%;
+    min-height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+#cover-text > h3 {
+    
+    background-color: #8846796e;
+    backdrop-filter: blur(12px);
+    width: 150px;
+    left: 50px;
+    font-family: 'Bitter';
+    font-size: 100%;
+    position: fixed;
+    bottom: 200px;
+    color: antiquewhite;
+    left:0%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
 
 }
 
@@ -138,28 +176,13 @@ main {
 }
 
 /* aboutme section */
-#aboutme {
-    height: 800px;
+#photoaboutme {
+    height: 600px;
     width: 100%;
-    background-image: url(../images/me.jpg);
-    background-size: cover;
+    background-image: url(../images/aboutme.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-}
-
-#cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: #8846796e;
-    backdrop-filter: blur(12px);
-    font-size: 80%;
-    position: fixed;
-    bottom: 30px;
-    width: 60%;
-    min-height: 200px;
-    padding-top: 10px;
-    padding-left: 5px;
-    color: antiquewhite;
-
+    background-position: bottom;
 }
 
 /* Footer */
@@ -188,43 +211,70 @@ footer {
     .sidebar {
         display: none;
     }
-
-    #cover-text {
-        width: 300px;
-        left: 100px;
-        font-family: 'Bitter';
-        font-size: 100%;
-        position: fixed;
-        bottom: 400px;
-        
-        left:0%;
-        min-height: 300px;
-        padding-top: 40px;
-        padding-left: 10px;
-
+    #photoaboutme {
+        height: 1200px;
+        width: 100%;  
+    }
+    #cover-text > h2 {
+        width: 600px;
+        font-size: 300%;
+        bottom: 300px;
+    
+    }
+    #cover-text > h3 {
+        width: 250px;
+        font-size: 130%; 
+        bottom: 300px;
+        min-height: 250px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 }
+    
+    
 
-/* Large devices (laptops and desltops, 992px and up) */
-@media screen and (min-width: 992px) {
+/* Large devices (laptops and desltops, 820px and up) */
+@media screen and (min-width: 820px) {
     nav a {
         font-size: large;
 
     }
-    #cover-text {
-        width:300px;
-        left: 100px;
-        font-family: 'Bitter';
-        font-size: 100%;
-        position: fixed;
-        bottom: 600px;
-        
-        left:0%;
-        min-height: 300px;
-        padding-top: 40px;
-        padding-left: 10px;
-
+    #photoaboutme {
+        height: 1300px;
+       
     }
-}
+    #cover-text > h2 {
+       
+        width: 600px;
+        font-size: 300%;
+        bottom: 500px;
+    }
+    #cover-text > h3 {
+        width: 300px;
+    }
 
+     }
+     /* Large devices (laptops and desltops, 1024px and up) */
+@media screen and (min-width: 1024px) {
+
+  
+    #photoaboutme {
+        height: 1600px;
+        background-image: url(../images/aboutme.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    #cover-text > h2 {
+       
+        bottom: 600px;   
+    }
+    #cover-text > h3 {
+        width: 350px;
+        bottom: 400px;
+        font-size: 150%;
+    }
+    
+}
+ 
 /* Header */
