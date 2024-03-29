@@ -38,6 +38,7 @@ h1 {
     margin-bottom: 1em;
 
 }
+
 #cover-text > h2 {
     
     background-color: #8846796e;
@@ -49,7 +50,7 @@ h1 {
     letter-spacing: 1px;
     position: absolute;
     bottom: 150px;
-    color: antiquewhite;
+    color: whitesmoke;
     left:0%;
     min-height: 150px;
     padding-top: 40px;
@@ -168,11 +169,62 @@ main {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 /* purpose section */
 #purpose {
-    width: 90%;
-    margin: 20px auto;
+    background-color:antiquewhite; 
+    padding:10px;  
+}
+#purpose >h2 {
+    font-family: 'Bitter';
+    color:#60214e;
+    font-style: bold;
+    line-height: 3em;
+    
+}
+#purpose >p {
+    font-family: 'Bitter';
+    color: #894074;
+    line-height: 2em;
+    padding: 10px;
+    
+}
+/* methods section */
+#methods {
+    background-color: antiquewhite;
+    padding:10px;  
+}
+#methods > h2 {
+    font-family: 'Bitter';
+    color: #60214e;
+    font-style: bold;
+    line-height: 3em;
+    
+}
+#methods >p {
+    font-family: 'Bitter';
+    color: #894074;
+    line-height: 2em;
+    padding: 10px;
+    
+    
+}
+/* interview section */
+#interview {
+    background-color:antiquewhite;
+    padding:10px;  
+}
+#interview >h2 {
+    font-family: 'Bitter';
+    color:#60214e;
+    font-style: bold;
+    line-height: 3em;
+}
+#interview >p {
+    font-family: 'Bitter';
+    color: #894074;
+    line-height: 2em;
+    padding: 10px;
+    
 }
 
 /* aboutme section */
@@ -228,6 +280,15 @@ footer {
         min-height: 250px;
         padding-right: 15px;
         padding-left: 15px;
+    }
+    #purpose >p {
+        font-size:larger;
+    }
+    #methods >p {
+        font-size:larger;
+    }
+    #interview >p {
+        font-size:larger;
     }
 }
     
