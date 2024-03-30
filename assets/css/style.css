@@ -258,14 +258,36 @@ main {
 
 /* introduction */
 
-#flower {
-    height: 600px;
+#introduction {
+    height: 800px;
     width: 100%;
-    background-image: url(../images/contact.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #ae3d52;   
 }
+.overlay {
+    width: 95%;
+    padding: 10em;
+    background-image: url(../images/gewandhaus.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top right;
+   
+}
+#introduction > h2 {
+    color:antiquewhite;
+    font-family: 'Bitter';
+    font-style: bold;
+    line-height: 3em;
+    padding-left: 1%;
+}
+#introduction > p {
+    font-family: 'Bitter', sans-serif;
+    color: whitesmoke;
+    line-height: 2em;
+    padding: 10px;
+
+
+}
+
 
 /* Contact */
 
@@ -423,7 +445,7 @@ footer {
     #cover-text>h3 {
         width: 250px;
         font-size: 130%;
-        bottom: 300px;
+        bottom: 400px;
         min-height: 250px;
         padding-right: 15px;
         padding-left: 15px;
@@ -441,6 +463,11 @@ footer {
         font-size: larger;
     }
 }
+    .overlay {
+        padding: 10em;
+        background-size: 60%;
+       
+    }
 
     #contactme-form {
         width: 500px;
@@ -468,7 +495,7 @@ footer {
 
         width: 600px;
         font-size: 300%;
-        bottom: 500px;
+        bottom: 700px;
     }
 
     #cover-text>h3 {
@@ -494,7 +521,7 @@ footer {
 
     #cover-text>h2 {
 
-        bottom: 600px;
+        bottom: 700px;
     }
 
     #cover-text>h3 {
