@@ -259,30 +259,33 @@ main {
 
 /* introduction */
 
-#introduction {
-    height: 800px;
-    width: 100%;
-    background-color: #ae3d52;   
-}
-
+.img_deg {
+    float: right;
+    width:100%;
     
     
     
-#introduction > h2 {
-    color:antiquewhite;
-    font-family: 'Bitter';
-    font-style: bold;
-    line-height: 3em;
-    padding-left: 1%;
+    
 }
 #introduction > p {
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Bitter';
     color: whitesmoke;
+    background-color: #992f47;
     line-height: 2em;
-    padding: 10px;
-
-
+    padding-left:10px;
 }
+#introduction > h2 {
+    line-height: 3em;
+    font-style: bold;
+    font-family: 'Bitter';
+    color: whitesmoke;
+    background-color: #992f47;
+    padding-left: 10px;
+}
+    
+
+
+
 
 
 /* Contact */
@@ -458,12 +461,7 @@ footer {
     #interview>p {
         font-size: larger;
     }
-}
-    .overlay {
-        padding: 10em;
-        background-size: 60%;
-       
-    }
+
 
     #contactme-form {
         width: 500px;
@@ -474,10 +472,10 @@ footer {
     .reset-input {
         width: 30%;
     }
-
-    div.overlay {
-        padding: 10em;
+    .img_deg {
+        float: right;
     }
+}
 /* Large devices (laptops and desltops, 820px and up) */
 @media screen and (min-width: 820px) {
     nav a {
@@ -505,9 +503,8 @@ footer {
 #contactme-form {
     width: 600px;
 }
-div.overlay {
-    background-position: center right;
-    padding: 15em;
+.img_deg {
+    height: 700px;
 }
 /* Large devices (laptops and desltops, 1024px and up) */
 @media screen and (min-width: 1024px) {
@@ -531,7 +528,9 @@ div.overlay {
         bottom: 400px;
         font-size: 150%;
     }
-
+    .img_deg {
+        height: 900px;
+    }
 }
 
 /* Header */
