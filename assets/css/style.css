@@ -307,9 +307,16 @@ main {
 #more {
     display: none;
 }
+#video {
+    background-color: antiquewhite;
+    font-family: 'Bitter';
+    color: #d85574;
+    padding-left: 10px;
+    height:800px;
+    width: 280px;
+}
 
-
-#summary {
+#development {
     background-color: #d85574;;
     height: 900px;
     width: 300px;
