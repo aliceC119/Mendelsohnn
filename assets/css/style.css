@@ -282,8 +282,38 @@ main {
     background-color: #992f47;
     padding-left: 10px;
 }
+#gewandhaus {
+    background-color:antiquewhite;
+    height:800px;
+    width: 280px;
+    display: relative;
+}
+#gewandhaus > h2 {
+    font-family: 'Bitter';
+    font-style: bold;
+    color: #d85574;
+    padding-left: 10px;
+    line-height: 2em;
+}
+#gewandhaus > p {
+    font-family: 'Bitter';
+    color: #d85574;
+    padding-left:10px;
+    line-height: 2em;
+    justify-content: center;
     
 
+}
+#more {
+    display: none;
+}
+
+
+#summary {
+    background-color: #d85574;;
+    height: 900px;
+    width: 300px;
+}
 
 
 

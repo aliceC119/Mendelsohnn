@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,97 +17,149 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-<!-- Header -->
-<header>
-   <a href="index.html"></a>
-   <h1 id="logo">My personal exploration </h1>
-   
-    <nav>
-        <ul id="menu" class="sidebar">
-            <li onclick="hideSidebar()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="introduction.html">Introduction</a></li>
-            <li><a href="gewandhaus.html" class="active">Gewandhaus</a></li>
-            <li><a href="mendelssohn.html">Mendelssohn</a></li>
-            <li><a href="conclusion.html">Conclusion</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <ul id="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="introduction.html">Introduction</a></li>
-            <li><a href="gewandhaus.html" class="active">Gewandhaus</a></li>
-            <li><a href="mendelssohn.html">Mendelssohn</a></li>
-            <li><a href="conclusion.html">Conclusion</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></label>
-        </ul>
-</nav>
-<script>
-    function showSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'flex'
-    }
-    function hideSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'none'
-    }
-</script>
-</header>
+    <!-- Header -->
+    <header>
+        <a href="index.html"></a>
+        <h1 id="logo">My personal exploration </h1>
 
-<!-- Main conten -->
-<main>
-    <section id="gewandhaus" >
-        <h2>Background of Gewandhaus the building and its orchestra in Leipzig</h2>
-        
-    </section>
-</main>
+        <nav>
+            <ul id="menu" class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="gewandhaus.html" class="active">Gewandhaus</a></li>
+                <li><a href="mendelssohn.html">Mendelssohn</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="gewandhaus.html" class="active">Gewandhaus</a></li>
+                <li><a href="mendelssohn.html">Mendelssohn</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <input type="checkbox" id="nav-toggle" name="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label" onclick="showSidebar()"><i
+                        class="fa-solid fa-bars"></i></label>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    </header>
 
-<!-- Footer -->
-<footer>
-    
-    
-    <ul id="social-networks">
-        
-        <div>
-            <h2>FOLLOW ME </h2>
+    <!-- Main content -->
+    <main>
+
+
+        <section id="gewandhaus">
+            <h2>Background of Gewandhaus the building and its orchestra in Leipzig</h2>
+            <p>
+                Gewandhaus is a German word meaning 'Cloth Hall or house of dresses',
+                a part of the building was used as a place for treading clothes. The
+                building had undergone construction three times since it had been used
+                as concert hall in 1781. The Second Gewandhaus, so-called 'Neues Gewandhaus'
+                was opened in 1884 but then was destucted by bombing in the World War Two in 1847.
+                The third Gewandhaus, the one in Leipzig now was opened in 1981. The root of the
+                orchestra can be traced back as early as <span id="dots">...</span><span id="more">
+
+
+                    1479. The members of the orchestra were
+                    appointed by the Leipzig City Council and they remained in civic service until 1840.
+                    The orchestra then became the Gewandhaus Orchestra in 1781 after the renovation as the
+                    Gewandhaus concert hall building. Gewandhaus the concert hall isone of the famous and
+                    the earliest concert in Europe. The concet hall is the venue for the premiere of the
+                    following masterpiece that include Beethoven's Fifth PianoCOncerto 'Emperor',
+                    Mendelssohn's violin Concerto, and the next two masterpieces were conducted by
+                    Mendelssohn-Schubert's C major Symphony 'The Great' and one of the reaasonas of why
+                    Gewandhaus the concert hall able to attract fampus musicians to have their works be performed
+                    there, was because of its excellent acoustic sound quality according to Dr.Erich Kässmayer in
+                    the interview.</span>
+            </p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            </div>
+            <script>
+                function myFunction() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+            </script>
+        </section>
+        <section>
+            <h2>Click the video below to view the interview </h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xa81PT52Vqk?si=OmqSvobrXmC0NbVe" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+
+        <ul id="social-networks">
+
+            <div>
+                <h2>FOLLOW ME </h2>
+            </div>
+            <li>
+                <a href="http://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my YouTube channel (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+
+            <li>
+                <a href="http://www.vimeo.com" / target="_blank" rel="noopener"
+                    aria-label="Visit my vimeo page (opens in a new tab)">
+                    <i class="fa-brands fa-vimeo"></i></a>
+            </li>
+
+        </ul>
+        <div id="copyright">
+            <h2>COPYRIGHT © 2024 | All Rights Reserved </h2>
+
         </div>
-        <li>
-            <a href="http://www.facebook.com/" target="_blank" rel="noopener"
-            aria-label="Visit my Facebook page (opens in a new tab)">
-            <i class="fa-brands fa-facebook"></i></a>
-        </li>
-
-        <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit my Instagram page (opens in a new tab)">
-                <i class="fa-brands fa-instagram"></i></a>
-        </li>
-
-        <li>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit my YouTube channel (opens in a new tab)">
-                <i class="fa-brands fa-youtube-square"></i></a>
-        </li>
-      
-        <li>
-            <a href="http://www.vimeo.com"/ target="_blank" rel="noopener"
-            aria-label="Visit my vimeo page (opens in a new tab)">
-            <i class="fa-brands fa-vimeo"></i></a>
-        </li>
-
-    </ul>
-    <div id="copyright">
-        <h2>COPYRIGHT © 2024 | All Rights Reserved </h2>
-
-    </div>
-</footer>
-<!-- Font Awesome kit -->
-<script src="https://kit.fontawesome.com/da1793a7a5.js" crossorigin="anonymous"></script>
+    </footer>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/da1793a7a5.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
