@@ -506,7 +506,10 @@ footer {
 #contactme-form {
     width: 600px;
 }
-
+.overlay {
+    background-position: center right;
+    padding: 15em;
+}
 /* Large devices (laptops and desltops, 1024px and up) */
 @media screen and (min-width: 1024px) {
 
