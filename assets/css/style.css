@@ -304,8 +304,8 @@ main {
     background-color: #fcf34e69;
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgb(84, 71, 71);
-    padding: 40px;
-    width:250px;
+    padding: 20px;
+    width:30px;
     height:500px;
     display: flex;
     flex-direction: column;
@@ -318,12 +318,13 @@ main {
     color:#894074;
     margin-bottom: 20px;
     font-family:'Madimi One';
+
     
 }
 .text-input {
    
     color: #0f0101;
-    width: 100%;
+    width: 70%;
     height: 50px;
     margin: 5px 0 20px 1;
     border: none;
@@ -338,11 +339,12 @@ main {
     padding-top: 15px;
     border-radius: 20px;
     padding-left: 10px;
+    width: 70%;
 
 }
 .button-input {
     color:#894074;
-    width: 80%;
+    width: 40%;
     height: 50px;
     
     border: none;
@@ -355,7 +357,7 @@ main {
 }
 .reset-input {
     color:#894074;
-    width: 60%;
+    width: 20%;
     height: 50px;
     border: none;
     outline: none;
@@ -464,7 +466,7 @@ footer {
 
 
     #contactme-form {
-        width: 500px;
+        width: 100px;
     }
     .button-input {
         width: 40%;
@@ -501,7 +503,7 @@ footer {
 
 }
 #contactme-form {
-    width: 600px;
+    width: 500px;
 }
 .img_deg {
     height: 700px;
