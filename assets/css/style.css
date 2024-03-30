@@ -442,7 +442,15 @@ footer {
     }
 }
 
-
+    #contactme-form {
+        width: 500px;
+    }
+    .button-input {
+        width: 40%;
+    }
+    .reset-input {
+        width: 30%;
+    }
 
 /* Large devices (laptops and desltops, 820px and up) */
 @media screen and (min-width: 820px) {
@@ -467,6 +475,9 @@ footer {
         width: 300px;
     }
 
+}
+#contactme-form {
+    width: 600px;
 }
 
 /* Large devices (laptops and desltops, 1024px and up) */
