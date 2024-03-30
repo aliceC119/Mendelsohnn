@@ -155,6 +155,7 @@ nav a:hover {
 .sidebar a {
     width: 100%;
     display: flex;
+    color: whitesmoke;
 }
 
 /* Main content */
@@ -263,15 +264,10 @@ main {
     width: 100%;
     background-color: #ae3d52;   
 }
-.overlay {
-    width: 95%;
-    padding: 10em;
-    background-image: url(../images/gewandhaus.jpg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: top right;
-   
-}
+
+    
+    
+    
 #introduction > h2 {
     color:antiquewhite;
     font-family: 'Bitter';
@@ -479,6 +475,9 @@ footer {
         width: 30%;
     }
 
+    div.overlay {
+        padding: 10em;
+    }
 /* Large devices (laptops and desltops, 820px and up) */
 @media screen and (min-width: 820px) {
     nav a {
@@ -506,7 +505,7 @@ footer {
 #contactme-form {
     width: 600px;
 }
-.overlay {
+div.overlay {
     background-position: center right;
     padding: 15em;
 }
