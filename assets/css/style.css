@@ -311,10 +311,14 @@ main {
     background-color: antiquewhite;
     font-family: 'Bitter';
     color: #d85574;
-    padding-left: 15px;
-    height:fit-content;
+    height:100%;
     width: 100%;
 }
+#video >iframe {
+    height: 100%;
+    width: 100%
+}
+
 
 #development {
     background-color: #d85574;;
@@ -527,6 +531,9 @@ footer {
     }
     .img_deg {
         float: right;
+    }
+    #video {
+        padding-right: 20px;
     }
 }
 /* Large devices (laptops and desltops, 820px and up) */
