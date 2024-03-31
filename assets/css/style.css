@@ -392,6 +392,9 @@ img {
     align-content: center;
     background-color: antiquewhite;
  }
+ #hall img {
+    float: right;
+ }
  #hall .text-box {
     color:#40B5AD;
  }
@@ -406,7 +409,7 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 
 }
 #contribution-1 .text-box {
@@ -418,7 +421,22 @@ img {
     align-content: center;
     background-color: #F89880;
 }
+#contribution-1 img {
+    float: right;
+}
+#audience {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: whitesmoke;
+}
 
+#audience .text-box {
+    color:#F89880;
+}
+#audience img {
+    float: right;
+}
 /* Contact */
 
 #contact {
