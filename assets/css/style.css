@@ -379,11 +379,21 @@ img {
 #development img{
     float: right;
 }
- #concert-hall {
+#concert-hall {
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: #40B5AD;
+
+}
+ #hall {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: antiquewhite;
+ }
+ #hall .text-box {
+    color:#40B5AD;
  }
    
  #mendelssohn {
