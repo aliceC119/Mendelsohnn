@@ -311,18 +311,33 @@ img {
     display: none;
 }
 #video {
-    background-color: antiquewhite;
+    background-color: #d85574;
     font-family: 'Bitter';
-    color: #d85574;
-    height:100%;
-    width: 100%;
+    color: antiquewhite;
+    height:200px;
+    width: fit-content;
 }
 #video >iframe {
-    height: 100%;
-    width: 100%
+    height: fit-content;
+    width: 100%;
+    
 }
+#summary-gewandhaus {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: antiquewhite;
+    height: fit-content;
 
+}
+#summary-gewandhaus .text-box {
+    color:#d85574
 
+}
+#summary-gewandhaus img {
+    float: right;
+
+}
 
 /* Contact */
 
@@ -456,8 +471,8 @@ footer {
     }
     #video {
         width: 100%;
-        padding-left: 25px;
-        height:600px;
+       
+        height:300px;
     }
     
     }
@@ -526,9 +541,7 @@ footer {
         width: 30%;
     }
     
-    #video {
-        padding-right: 20px;
-    }
+    
     #introduction  {
         height:800px;
     }
@@ -537,7 +550,13 @@ footer {
         float: left;
         margin-right: 15px;
     }
-    
+    #video {
+        height:400px;
+    }
+    #video > iframe {
+        height: 350px;
+        
+    }
 }
 /* Large devices (laptops and desltops, 820px and up) */
 @media screen and (min-width: 820px) {
@@ -570,7 +589,9 @@ footer {
 #introduction  {
     height:1200px;
 }
-
+#video > iframe {
+    height: 370px;
+}
 
 /* Large devices (laptops and desltops, 1024px and up) */
 @media screen and (min-width: 1024px) {
@@ -599,6 +620,12 @@ footer {
 img {
     max-width: 500px;
     
+}
+#video {
+    height:600px;
+}
+#video > iframe {
+    height:550px;
 }
 }
 
