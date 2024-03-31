@@ -263,22 +263,23 @@ main {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: skyblue;
-    min-height: 1000px;
+    background-color: #3f3e79;
+    min-height: 600px;
     
 }
 .wrapper {
-    margin: 100px auto;
+    margin: 50px auto;
     width: 80%;
     padding-right: 20px;
     float: left;
 }
 img {
     
-    width: 110%;
+    width: 100%;
     border: 3px solid antiquewhite;
     border-radius: 10px;
-    margin-right: 40px;
+    margin-left: 11px;
+   
 
 }
 .text-box {
@@ -534,6 +535,7 @@ footer {
     img {
         max-width: 350px;
         float: left;
+        margin-right: 15px;
     }
     
 }
@@ -566,7 +568,7 @@ footer {
 }
 
 #introduction  {
-    height:1000px;
+    height:1200px;
 }
 
 
@@ -593,10 +595,11 @@ footer {
         font-size: 150%;
     }
    
-    #introduction {
-        height:1200px;
-    }
-   
+    
+img {
+    max-width: 500px;
+    
+}
 }
 
 /* Header */
