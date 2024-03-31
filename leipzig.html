@@ -60,8 +60,61 @@
 </script>
 </header>
 
-<!-- Main conten -->
-<main>Main content</main>
+<!-- Main content -->
+<main>
+    
+
+   
+    <section id="development">
+        
+            <h2>The development of orchestral works in the late classical period</h2>
+           
+           
+            <p>
+                the expansion of orchestra in history started since Haydn's musical trip 
+                to London in 1791-2, the venue of his Solomom concerts in London can hold
+                at least 800 seats, and the room size is much bigger than the concert hall 
+                in the Esterhazy palace of Eisenstadt where Haydn wrote many symphonies for 
+                and experimented symphonic form. London at that time 
+                    
+                in the eighteenth century
+                had many concert organizations, and concert activies were active. During his 
+                service to Prince Esterhazy, he was writing <span id="dots">...</span>
+                <span id="more">symphonie for 14 players in which 
+                3 violins for first and second violins, 1 viola, 1 cello, 1 double bass, 1 bassoon, 
+                2 oboes and 2 horns. But in his symphonies for his concerts in London, he was given 
+                a condition tht allowed him to write symphonies fro between 50 to 60 players.
+
+            </span>
+            </p>
+        
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+           
+            <script>
+                function myFunction() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+            </script>
+            
+       
+        </div>
+</section>
+
+
+
+</main>
 
 <!-- Footer -->
 <footer>

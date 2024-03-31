@@ -259,51 +259,53 @@ main {
 
 /* introduction */
 
-.img_deg {
-    float: right;
-    width:100%;
-    
-    
-    
-    
-}
-#introduction > p {
-    font-family: 'Bitter';
-    color: whitesmoke;
-    background-color: #992f47;
-    line-height: 2em;
-    padding-left:10px;
-}
-#introduction > h2 {
-    line-height: 3em;
-    font-style: bold;
-    font-family: 'Bitter';
-    color: whitesmoke;
-    background-color: #992f47;
-    padding-left: 10px;
-}
-#gewandhaus {
-    background-color:antiquewhite;
-    height:fit-content;
-    width: 100%;
-    
-}
-#gewandhaus > h2 {
-    font-family: 'Bitter';
-    font-style: bold;
-    color: #e4305a;
-    padding-left: 10px;
-    line-height: 2em;
-}
-#gewandhaus > p {
-    font-family: 'Bitter';
-    color: #d85574;
-    padding-left:10px;
-    line-height: 2em;
+#introduction  {
+    display: flex;
     justify-content: center;
+    align-content: center;
+    background-color: skyblue;
+    min-height: 1000px;
     
+}
+.wrapper {
+    margin: 100px auto;
+    width: 80%;
+    padding-right: 20px;
+    float: left;
+}
+img {
+    
+    width: 110%;
+    border: 3px solid antiquewhite;
+    border-radius: 10px;
+    margin-right: 40px;
 
 }
+.text-box {
+    color: antiquewhite;
+}
+.text-box h2 {
+    font-family: 'Bitter';
+    font-style: bold;
+    line-height: 2em;
+}
+.text-box p {
+    font-family: 'Bitter';
+    line-height: 2em;
+}
+    
+
+
+/* Gewandhaus */
+
+#gewandhaus {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #d85574;
+}
+    
+
 #more {
     display: none;
 }
@@ -318,14 +320,6 @@ main {
     height: 100%;
     width: 100%
 }
-
-
-#development {
-    background-color: #d85574;;
-    height: 900px;
-    width: 300px;
-}
-
 
 
 
@@ -464,6 +458,7 @@ footer {
         padding-left: 25px;
         height:600px;
     }
+    
     }
 
 /* Media query: tablets and larger , 768px and up) */
@@ -529,12 +524,18 @@ footer {
     .reset-input {
         width: 30%;
     }
-    .img_deg {
-        float: right;
-    }
+    
     #video {
         padding-right: 20px;
     }
+    #introduction  {
+        height:800px;
+    }
+    img {
+        max-width: 350px;
+        float: left;
+    }
+    
 }
 /* Large devices (laptops and desltops, 820px and up) */
 @media screen and (min-width: 820px) {
@@ -563,9 +564,12 @@ footer {
 #contactme-form {
     width: 500px;
 }
-.img_deg {
-    height: 700px;
+
+#introduction  {
+    height:1000px;
 }
+
+
 /* Large devices (laptops and desltops, 1024px and up) */
 @media screen and (min-width: 1024px) {
 
@@ -588,9 +592,11 @@ footer {
         bottom: 400px;
         font-size: 150%;
     }
-    .img_deg {
-        height: 900px;
+   
+    #introduction {
+        height:1200px;
     }
+   
 }
 
 /* Header */
