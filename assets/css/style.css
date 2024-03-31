@@ -376,17 +376,37 @@ img {
 #development .text-box {
     color:#40B5AD;
 }
-#concert-hall {
+#development img{
+    float: right;
+}
+ #concert-hall {
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: #40B5AD;
-}
-#summary-leipzig {
+ }
+   
+ #mendelssohn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #F89880
+ }
+#contribution-1 {
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: antiquewhite;
+
+}
+#contribution-1 .text-box {
+    color: #F89880;
+}
+#contribution-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #F89880;
 }
 
 /* Contact */
