@@ -437,6 +437,25 @@ img {
 #audience img {
     float: right;
 }
+
+#conclusion {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: gold;
+
+}
+#conclusion .text-box {
+    color:#544545;
+}
+
+#bibliography {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #887373;
+    
+}
 /* Contact */
 
 #contact {
@@ -516,6 +535,7 @@ img {
     font-family:'Madimi One';
     background: linear-gradient(#FFF000, orange);
 }
+
 
 
 
