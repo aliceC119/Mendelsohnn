@@ -283,7 +283,7 @@ img {
 
 }
 .text-box {
-    color: antiquewhite;
+    color: whitesmoke;
 }
 .text-box h2 {
     font-family: 'Bitter';
@@ -295,7 +295,7 @@ img {
     line-height: 2em;
 }
 #video {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 #video iframe {
     
@@ -330,7 +330,7 @@ img {
 
 }
 #video {
-    background-color: antiquewhite;
+    background-color:whitesmoke;
     height:600px;
    
 }
@@ -344,7 +344,7 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     height: fit-content;
 
 }
@@ -370,7 +370,7 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     
 }
 #development .text-box {
@@ -390,7 +390,7 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
  }
  #hall img {
     float: right;
@@ -456,6 +456,14 @@ img {
     font-family: 'Times New Roman', Times, serif;
     background-color: #887373;
     line-height: 2em;
+    
+    
+}
+#bibliography ul {
+    list-style-type: none;
+}
+#bibliography figure {
+    align-content: center;
     
 }
 
@@ -744,6 +752,11 @@ img {
     height: 400px;
     
 
+}
+#contactme-form {
+    width: 600px;
+    height: 600px;
+    
 }
 
 }
