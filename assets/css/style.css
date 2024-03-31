@@ -1,8 +1,8 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
+
 
 
 
@@ -30,7 +30,14 @@ header {
     position: center;
 
 }
+/* Main content */
+main {
 
+    flex: 1 0 auto;
+    margin-top: 5px;
+}
+
+/* Home */
 
 h1 {
     color: #894074;
@@ -49,7 +56,7 @@ h1 {
     backdrop-filter: blur(12px);
     width: 250px;
     left: 100px;
-    font-family: 'Style script';
+    font-family: 'Style script', sans-serif;
     font-size: 200%;
     letter-spacing: 1px;
     position: absolute;
@@ -68,7 +75,7 @@ h1 {
     backdrop-filter: blur(12px);
     width: 150px;
     left: 50px;
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
     font-size: 100%;
     position: fixed;
     bottom: 200px;
@@ -109,7 +116,7 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
     font-family: 'Bitter', sans-serif;
-    background-color: white;
+    
     font-size: large;
 }
 
@@ -125,10 +132,11 @@ nav a {
     display: none;
     align-items: center;
     color: #894074;
+    
 }
 
 nav a:hover {
-    background-color: whitesmoke;
+    background-color: gold;
 }
 
 .sidebar {
@@ -137,7 +145,7 @@ nav a:hover {
     right: 0;
     height: 100vh;
     width: 200px;
-    background-color: #89407444;
+    background-color: #89407469;
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgb(84, 71, 71);
     list-style: none;
@@ -150,21 +158,16 @@ nav a:hover {
 
 .sidebar li {
     width: 100%;
+    font-family: 'Bitter',sans-serif;
 }
 
 .sidebar a {
     width: 100%;
     display: flex;
     color: whitesmoke;
+    font-family: 'Bitter',sans-serif;
 }
 
-/* Main content */
-main {
-
-    flex: 1 0 auto;
-    margin-top: 5px;
-
-}
 
 /* music section */
 #music {
@@ -218,7 +221,6 @@ main {
     line-height: 2em;
     padding: 10px;
 
-
 }
 
 /* interview section */
@@ -245,7 +247,7 @@ main {
 /* aboutme section */
 #aboutme > h2 {
     color:#894074;
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
 }
 #photoaboutme {
     height: 600px;
@@ -286,12 +288,12 @@ img {
     color: whitesmoke;
 }
 .text-box h2 {
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
     font-style: bold;
     line-height: 2em;
 }
 .text-box p {
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
     line-height: 2em;
 }
 #video {
@@ -303,9 +305,7 @@ img {
     border: 3px solid antiquewhite;
     border-radius: 10px;
     margin-right:10px;
-    height: 210px;
-   
-
+    height: 210px; 
 }
 
 
@@ -318,7 +318,6 @@ img {
     background-color: #d85574;
 }
     
-
 #more {
     display: none;
 }
@@ -496,7 +495,7 @@ img {
 #contactme-form> h2 {
     color:#894074;
     margin-bottom: 20px;
-    font-family:'Madimi One';
+    font-family:'Madimi One', sans-serif;
 
     
 }
@@ -525,13 +524,12 @@ img {
     color:#894074;
     width: 60%;
     height: 50px;
-    
     border: none;
     outline: none;
     border-radius: 25px;
     padding-left: 5px;
     font-weight: 500;
-    font-family:'Madimi One';
+    font-family:'Madimi One', sans-serif;
     background: linear-gradient(#FFF000, orange);
 }
 .reset-input {
@@ -543,11 +541,9 @@ img {
     border-radius: 25px;
     padding-left: 2px;
     font-weight: 500;
-    font-family:'Madimi One';
+    font-family:'Madimi One', sans-serif;
     background: linear-gradient(#FFF000, orange);
 }
-
-
 
 
 
@@ -760,5 +756,3 @@ img {
 }
 
 }
-
-/* Header */
