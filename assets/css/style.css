@@ -437,6 +437,7 @@ img {
 #audience img {
     float: right;
 }
+/* Conclusion */
 
 #conclusion {
     display: flex;
@@ -448,14 +449,16 @@ img {
 #conclusion .text-box {
     color:#544545;
 }
+/* Bibliography */
 
-#bibliography {
+#bibliography  {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #887373;
+    line-height: 2em;
     
 }
+
 /* Contact */
 
 #contact {
