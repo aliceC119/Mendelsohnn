@@ -1,8 +1,9 @@
 /* Google fonts import */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital,wght@0,100..900;1,100..900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
 
 
 
@@ -69,24 +70,6 @@ h1 {
 
 }
 
-#cover-text>h3 {
-
-    background-color: #8846796e;
-    backdrop-filter: blur(12px);
-    width: 150px;
-    left: 50px;
-    font-family: 'Bitter', sans-serif;
-    font-size: 100%;
-    position: fixed;
-    bottom: 200px;
-    color: antiquewhite;
-    left: 0%;
-    min-height: 200px;
-    padding-top: 30px;
-    padding-left: 10px;
-
-}
-
 /* Navbar with a sidebar feature */
 nav {
 
@@ -138,6 +121,7 @@ nav a {
 nav a:hover {
     background-color: gold;
 }
+/* nav sidebar */
 
 .sidebar {
     position: fixed;
@@ -245,19 +229,48 @@ nav a:hover {
 }
 
 /* aboutme section */
-#aboutme > h2 {
-    color:#894074;
-    font-family: 'Bitter', sans-serif;
-}
-#photoaboutme {
-    height: 600px;
-    width: 100%;
-    background-image: url(../images/aboutme.jpg);
-    background-size: contain;
+
+#aboutme {
+    background-image: url(../images/aboutmebimg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center center;
+    height: 130vh;
+    width: 100%;
+   
+}
+#aboutme img {
+    
+    width: 80%;
+    border: 3px solid #894074;
+    border-radius: 10px; 
+    margin-left: 55px;
 }
 
+#aboutme .text-box {
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 120%;
+}
+
+#aboutme.text-box h2 {
+    font-family: 'Bitter', sans-serif;
+    font-style: bold;
+    line-height: 2em;
+}
+
+#aboutme.text-box p {
+    font-family: 'Bitter',sans-serif;
+    line-height: 2em;
+    font-size: larger;
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 80%;
+    padding-right: 20px;
+    float: left;
+}
 
 /* introduction */
 
@@ -266,48 +279,43 @@ nav a:hover {
     justify-content: center;
     align-content: center;
     background-color: #3f3e79;
-    min-height: 600px;
-    
+    min-height: 600px; 
 }
-.wrapper {
-    margin: 50px auto;
-    width: 80%;
-    padding-right: 20px;
-    float: left;
-}
+
 img {
     
     width: 100%;
     border: 3px solid antiquewhite;
-    border-radius: 10px;
-    margin-left: 11px;
-   
-
+    border-radius: 10px; 
+    margin-left: 10px;
 }
+
 .text-box {
     color: whitesmoke;
 }
+
 .text-box h2 {
     font-family: 'Bitter', sans-serif;
     font-style: bold;
     line-height: 2em;
 }
+
 .text-box p {
     font-family: 'Bitter', sans-serif;
     line-height: 2em;
 }
+
 #video {
     background-color: whitesmoke;
 }
-#video iframe {
-    
+
+#video iframe {   
     width: 130%;
     border: 3px solid antiquewhite;
     border-radius: 10px;
     margin-right:10px;
     height: 210px; 
 }
-
 
 /* Gewandhaus */
 
@@ -326,17 +334,16 @@ img {
     justify-content: center;
     align-content: center;
     background-color: #d85574;
-
 }
+
 #video {
     background-color:whitesmoke;
-    height:600px;
-   
+    height:600px;   
 }
+
 #video .text-box {
     color:#d85574;
-    padding-left: 30px;
-    
+    padding-left: 30px;  
 }
 
 #summary-gewandhaus {
@@ -345,17 +352,16 @@ img {
     align-content: center;
     background-color: whitesmoke;
     height: fit-content;
-
 }
+
 #summary-gewandhaus .text-box {
     color:#d85574;
-    
-
 }
+
 #summary-gewandhaus img {
     float: right;
-
 }
+
 /* Leipzig */
 
 #sturm {
@@ -369,31 +375,35 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: whitesmoke;
-    
+    background-color: whitesmoke; 
 }
+
 #development .text-box {
     color:#40B5AD;
 }
+
 #development img{
     float: right;
 }
+
 #concert-hall {
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: #40B5AD;
-
 }
+
  #hall {
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: whitesmoke;
  }
+
  #hall img {
     float: right;
  }
+
  #hall .text-box {
     color:#40B5AD;
  }
@@ -404,25 +414,29 @@ img {
     align-content: center;
     background-color: #F89880
  }
+
 #contribution-1 {
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: whitesmoke;
-
 }
+
 #contribution-1 .text-box {
     color: #F89880;
 }
+
 #contribution-2 {
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: #F89880;
 }
+
 #contribution-1 img {
     float: right;
 }
+
 #audience {
     display: flex;
     justify-content: center;
@@ -433,9 +447,11 @@ img {
 #audience .text-box {
     color:#F89880;
 }
+
 #audience img {
     float: right;
 }
+
 /* Conclusion */
 
 #conclusion {
@@ -443,27 +459,26 @@ img {
     justify-content: center;
     align-content: center;
     background-color: gold;
-
 }
+
 #conclusion .text-box {
     color:#544545;
 }
+
 /* Bibliography */
 
 #bibliography  {
     display: flex;
     font-family: 'Times New Roman', Times, serif;
     background-color: #887373;
-    line-height: 2em;
-    
-    
+    line-height: 2em;   
 }
 #bibliography ul {
     list-style-type: none;
 }
+
 #bibliography figure {
-    align-content: center;
-    
+    align-content: center;   
 }
 
 /* Contact */
@@ -492,13 +507,14 @@ img {
     position: relative;
     
 }
+
 #contactme-form> h2 {
     color:#894074;
     margin-bottom: 20px;
     font-family:'Madimi One', sans-serif;
-
-    
+  
 }
+
 .text-input {
    
     color: #0f0101;
@@ -512,14 +528,15 @@ img {
     font-weight: 500;  
     
 }
+
 .contact-input {
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
     padding-left: 10px;
     width: 90%;
-
 }
+
 .button-input {
     color:#894074;
     width: 60%;
@@ -532,6 +549,7 @@ img {
     font-family:'Madimi One', sans-serif;
     background: linear-gradient(#FFF000, orange);
 }
+
 .reset-input {
     color:#894074;
     width: 40%;
@@ -545,9 +563,8 @@ img {
     background: linear-gradient(#FFF000, orange);
 }
 
-
-
 /* Footer */
+
 footer {
     background-color: #894074;
     min-height: 5vh;
@@ -560,7 +577,6 @@ footer {
     color: whitesmoke;
     letter-spacing: 1px;
     font-size: small;
-
 }
 
 #social-networks {
@@ -585,20 +601,22 @@ footer {
     padding: 10px 0;
 
 }
+
 /* Media query: tablets and larger , 390px and up) */
 @media screen and (min-width: 390px){
     #gewandhaus {
            
          width: 100%;
-         height:fit-content;
-         
+         height:fit-content;      
     
     }
+
     #video {
         
         height:600px;
     }
     }
+
 /* Media query: tablets and larger , 768px and up) */
 @media screen and (min-width: 768px) {
     nav a {
@@ -652,32 +670,42 @@ footer {
         font-size: larger;
     }
 
+    #aboutme {
+        background-image: url(../images/aboutmebimg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 800px;
+        width: 100%;
+    }
 
     #contactme-form {
         width: 500px;
     }
+
     .button-input {
         width: 40%;
     }
+
     .reset-input {
         width: 30%;
     }
     
-    
     #introduction  {
         height:800px;
     }
+
     img {
         max-width: 350px;
         float: left;
         margin-right: 15px;
     }
+
     #video iframe {
         width: 100%;
         height: 300px;
         border-radius: 10px;
         margin-left: 60px;
-
     }
     }
 
@@ -688,17 +716,21 @@ footer {
 
     }
 
-    #photoaboutme {
-        height: 1300px;
-
+    #aboutme {
+        background-image: url(../images/aboutmebimg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        height: 1200px;
+        width: 100%;
     }
 
-    #cover-text>h2 {
+    #cover-text > h2 {
 
-        width: 600px;
-        font-size: 300%;
-        bottom: 700px;
-    }
+            width: 600px;
+            font-size: 300%;
+            bottom: 700px;
+        }
 
     #cover-text>h3 {
         width: 300px;
@@ -737,7 +769,15 @@ footer {
         bottom: 400px;
         font-size: 150%;
     }
-   
+    #aboutme {
+        background-image: url(../images/aboutmebimg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 1200px;
+        width: 100%;
+    }
     
 img {
     max-width: 500px;
@@ -747,12 +787,10 @@ img {
     
     height: 400px;
     
-
 }
 #contactme-form {
     width: 600px;
     height: 600px;
     
 }
-
 }
