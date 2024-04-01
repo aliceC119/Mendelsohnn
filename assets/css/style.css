@@ -79,6 +79,7 @@ h1 {
 
 }
 
+
 #nav-toggle {
     display: none;
 }
@@ -86,9 +87,6 @@ h1 {
 .nav-toggle-label {
     font-size: 2rem;
     color: #894074;
-    
-    
-   
    
 }
 
@@ -138,6 +136,7 @@ nav a:hover {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    
 
 }
 
@@ -462,6 +461,7 @@ img {
     justify-content: center;
     align-content: center;
     background-color: gold;
+    
 }
 
 #conclusion .text-box {
@@ -474,15 +474,29 @@ img {
     display: flex;
     font-family: 'Times New Roman', Times, serif;
     background-color: #887373;
-    line-height: 2em;   
+    line-height: 2em;  
+    width: 100%;
+     
 }
+
 #bibliography ul {
     list-style-type: none;
 }
 
-#bibliography figure {
-    align-content: center;   
+
+/* Electronics sources */
+
+#appendix ul{
+    padding-right: 100px;
 }
+
+
+#figure {
+    display:grid;
+    
+    
+}
+
 
 /* Contact */
 
@@ -639,7 +653,7 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
+    
     .sidebar {
         display: none;
     }

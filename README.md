@@ -56,7 +56,7 @@ The images were taken from https://www.pexels.com/ and my own photos.
 Validator Testing:
 
 CSS - No error were found when passing through the offical (Jigsaw) validator
-HTML- Only an error was found in the navigation sidebar codes
+HTML- No error were found when passing through the offical  W3 validator
 
 
 
