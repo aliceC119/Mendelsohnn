@@ -351,7 +351,7 @@ img {
     justify-content: center;
     align-content: center;
     background-color: whitesmoke;
-    height: 700px;
+    
 }
 
 #summary-gewandhaus .text-box {
@@ -360,7 +360,7 @@ img {
 
 #summary-gewandhaus img {
     float: right;
-    height: 99%;
+   
    
 }
 
@@ -811,6 +811,16 @@ footer {
 img {
     max-width: 500px;
     
+}
+
+
+#summary-gewandhaus {
+    height: 630px;
+}
+#summary-gewandhaus img {
+    height: 99%;
+   
+   
 }
 #video iframe {
     
