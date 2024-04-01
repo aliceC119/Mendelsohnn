@@ -24,7 +24,7 @@
    <h1 id="logo">My personal exploration </h1>
    
     <nav>
-        <ul id="menu" class="sidebar">
+        <ul class="sidebar">
             <li onclick="hideSidebar()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutme.html">About me</a></li>
@@ -35,7 +35,7 @@
             <li><a href="conclusion.html" class="active">Conclusion</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <ul id="menu">
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutme.html">About me</a></li>
             <li><a href="introduction.html">Introduction</a></li>
@@ -44,10 +44,11 @@
             <li><a href="mendelssohn.html">Mendelssohn</a></li>
             <li><a href="conclusion.html" class="active">Conclusion</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><label for="nav-toggle" class="nav-toggle-label" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></label></li>
             
         </ul>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></label>
+            
 </nav>
 <script>
     function showSidebar(){
