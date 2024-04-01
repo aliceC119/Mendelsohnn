@@ -28,7 +28,7 @@ header {
     flex: 0 0 auto;
     padding: 0 1rem;
     z-index: 99;
-    position: center;
+    position: relative;
 
 }
 /* Main content */
@@ -73,7 +73,7 @@ h1 {
 /* Navbar with a sidebar feature */
 nav {
 
-    box-shadow: rgb(77, 69, 69)
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /* Nav toggle */
@@ -173,7 +173,7 @@ nav a:hover {
 #purpose>h2 {
     font-family: 'Bitter', sans-serif;
     color: #60214e;
-    font-style: bold;
+    font-size: x-large;
     line-height: 3em;
 
 }
@@ -195,7 +195,7 @@ nav a:hover {
 #methods>h2 {
     font-family: 'Bitter', sans-serif;
     color: #60214e;
-    font-style: bold;
+    font-size: x-large;
     line-height: 3em;
 
 }
@@ -217,7 +217,7 @@ nav a:hover {
 #interview>h2 {
     font-family: 'Bitter', sans-serif;
     color: #60214e;
-    font-style: bold;
+    font-size: x-large;
     line-height: 3em;
 }
 
@@ -256,7 +256,7 @@ nav a:hover {
 
 #aboutme.text-box h2 {
     font-family: 'Bitter', sans-serif;
-    font-style: bold;
+    font-size: x-large;
     line-height: 2em;
 }
 
@@ -297,7 +297,7 @@ img {
 
 .text-box h2 {
     font-family: 'Bitter', sans-serif;
-    font-style: bold;
+    font-size: x-large;
     line-height: 2em;
 }
 
@@ -523,7 +523,7 @@ img {
     color: #0f0101;
     width: 90%;
     height: 50px;
-    margin: 5px 0 20px 1;
+    margin: 5px 0px 20px 1px;
     border: none;
     outline: none;
     border-radius: 25px;
