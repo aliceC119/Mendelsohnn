@@ -564,6 +564,10 @@ img {
 }
 
 /* Footer */
+#footer > h2 {
+    font-family: 'Montserrat';
+    color:  white;
+}
 
 footer {
     background-color: #894074;

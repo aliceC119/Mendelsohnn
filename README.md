@@ -34,11 +34,11 @@ The site was deployed to GitHub pages.
 Credits
 
 The code to make the navigation bar is taken from the source code of Love Running Project
-The code to create  the navigation sidebar is inspired by https://youtu.be/U8smiWQ8Seg
+The code to create the navigation sidebar is inspired by https://youtu.be/U8smiWQ8Seg
+The code to make the favicon was taken by the Love Running Project.
 
 The idea of using the navigation sidebar is inspired by https://kunstsammlungen-museen.augsburg.de/mozarthaus
 The idea of making scroll down pages is inspired by https://schumann-haus-duesseldorf.de/
-
 
 The code to make responsive image and text was inspired by https://www.youtube.com/watch?v=lgX38fNbxmw
 
@@ -52,6 +52,11 @@ The code to make the social media links was taken form the Love Running Project.
 Media:
 
 The images were taken from https://www.pexels.com/ and my own photos.
+
+Validator Testing:
+
+CSS - No error were found when passing through the offical (Jigsaw) validator
+HTML- Only an error was found in the navigation sidebar codes
 
 
 
