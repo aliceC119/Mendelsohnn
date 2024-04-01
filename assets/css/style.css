@@ -351,7 +351,7 @@ img {
     justify-content: center;
     align-content: center;
     background-color: whitesmoke;
-    height: fit-content;
+    height: 700px;
 }
 
 #summary-gewandhaus .text-box {
@@ -360,6 +360,8 @@ img {
 
 #summary-gewandhaus img {
     float: right;
+    height: 99%;
+   
 }
 
 /* Leipzig */
@@ -785,7 +787,7 @@ img {
 }
 #video iframe {
     
-    height: 400px;
+    height: 500px;
     
 }
 #contactme-form {
