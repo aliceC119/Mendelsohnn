@@ -60,7 +60,7 @@ h1 {
     font-family: 'Style script', sans-serif;
     font-size: 200%;
     letter-spacing: 1px;
-    position: absolute;
+    position: sticky;
     bottom: 150px;
     color: whitesmoke;
     left: 0%;
