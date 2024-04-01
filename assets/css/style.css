@@ -732,7 +732,7 @@ footer {
 
             width: 600px;
             font-size: 300%;
-            bottom: 700px;
+            bottom: 650px;
         }
 
     #cover-text>h3 {
@@ -748,11 +748,19 @@ footer {
     height:1200px;
 }
 }
+/* Large devices (laptops and desltops, 820px and up) */
+@media screen and (min-width: 820px) {
+
+    #cover-text > h2 {
+        bottom: 450px;
+    }
+}
 
 
 /* Large devices (laptops and desltops, 1024px and up) */
 @media screen and (min-width: 1024px) {
 
+   
 
     #photoaboutme {
         height: 1600px;
