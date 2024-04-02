@@ -241,11 +241,11 @@ nav a:hover {
     width: 80%;
     border: 3px solid #894074;
     border-radius: 10px; 
-    margin-left: 55px;
+    margin-left: 68px;
 }
 
 #aboutme .text-box {
-    color: whitesmoke;
+    color: antiquewhite;
     margin-left: 25px;
     width: 120%;
 }
@@ -321,6 +321,7 @@ img {
     justify-content: center;
     align-content: center;
     background-color: #d85574;
+    
 }
     
 #more {
@@ -335,7 +336,7 @@ img {
 
 #video {
     background-color:whitesmoke;
-    height:600px;   
+    height:80vh;   
 }
 
 #video .text-box {
@@ -626,7 +627,8 @@ footer {
 /* Media query: tablets and larger , 390px and up) */
 @media screen and (min-width: 390px){
 #aboutme {
-    height: 100vh;
+    height: 123
+    vh;
 
 }
     
@@ -718,7 +720,7 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 800px;
+    height: 77vh;
     width: 100%;
 }
 
@@ -775,7 +777,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 80vh;
+    height: 83vh;
     width: 100%;
 }
 
@@ -792,7 +794,7 @@ img {
     width: 300px;
 }
 #contact {
-    height: 80vh;
+    height: 83vh;
 }
 
 #contactme-form {
@@ -865,7 +867,7 @@ img {
     
 }
 #contact {
-    height: 85vh;
+    height: 83vh;
 }
 #contactme-form {
     width: 700px;
