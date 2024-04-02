@@ -61,7 +61,7 @@ h1 {
     bottom: 150px;
     color: whitesmoke;
     left: 0%;
-    min-height: 150px;
+    min-height: 50px;
     padding-top: 40px;
     padding-left: 10px;
 
@@ -241,11 +241,11 @@ nav a:hover {
     width: 80%;
     border: 3px solid #894074;
     border-radius: 10px; 
-    margin-left: 68px;
+    margin-left: 55px;
 }
 
 #aboutme .text-box {
-    color: antiquewhite;
+    color: whitesmoke;
     margin-left: 25px;
     width: 120%;
 }
@@ -321,7 +321,6 @@ img {
     justify-content: center;
     align-content: center;
     background-color: #d85574;
-    
 }
     
 #more {
@@ -336,7 +335,7 @@ img {
 
 #video {
     background-color:whitesmoke;
-    height:80vh;   
+    height:600px;   
 }
 
 #video .text-box {
@@ -626,9 +625,10 @@ footer {
 
 /* Media query: tablets and larger , 390px and up) */
 @media screen and (min-width: 390px){
-#aboutme {
-    height: 123
-    vh;
+
+
+    #aboutme {
+    height: 100vh;
 
 }
     
@@ -660,7 +660,7 @@ nav a {
     width: fit-content;
     padding-right: 2rem;
     letter-spacing: 0px;
-    font-size: smaller;
+    font-size: small;
     margin: 0 -1rem;
 }
 
@@ -720,7 +720,7 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 77vh;
+    height: 800px;
     width: 100%;
 }
 
@@ -767,7 +767,7 @@ img {
 @media screen and (min-width: 820px) {
  nav a {
 
-    font-size: large;
+    font-size: smaller;
 
 }
 
@@ -777,7 +777,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 83vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -794,7 +794,7 @@ img {
     width: 300px;
 }
 #contact {
-    height: 83vh;
+    height: 80vh;
 }
 
 #contactme-form {
@@ -867,7 +867,7 @@ img {
     
 }
 #contact {
-    height: 83vh;
+    height: 85vh;
 }
 #contactme-form {
     width: 700px;
