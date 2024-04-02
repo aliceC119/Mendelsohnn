@@ -1,8 +1,5 @@
 /* Google fonts import */
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital,wght@0,100..900;1,100..900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
 
 
@@ -500,7 +497,7 @@ img {
 
 #contact {
     background-image: url(../images/contact.jpg);
-    height: 1200px;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -628,6 +625,12 @@ footer {
 
 /* Media query: tablets and larger , 390px and up) */
 @media screen and (min-width: 390px){
+#aboutme {
+    height: 100vh;
+
+}
+    
+
 #gewandhaus {
            
     width: 100%;
@@ -668,6 +671,7 @@ nav a {
 
     display: none;
 }
+
 
 #photoaboutme {
 
@@ -718,6 +722,9 @@ nav a {
     width: 100%;
 }
 
+#contact {
+    height: 77vh;
+}
 #contactme-form {
 
     width: 550px;
@@ -735,7 +742,7 @@ nav a {
     
 #introduction  {
 
-    height:800px;
+    min-height:80vh;
 }
 
 img {
@@ -768,7 +775,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 1200px;
+    height: 80vh;
     width: 100%;
 }
 
@@ -784,7 +791,9 @@ img {
 
     width: 300px;
 }
-
+#contact {
+    height: 80vh;
+}
 
 #contactme-form {
 
@@ -792,7 +801,7 @@ img {
 }
 
 #introduction  {
-    height:1200px;
+    height:70vh;
 }
 }
 
@@ -829,16 +838,18 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1200px;
+    height: 83vh;
     width: 100%;
 }
-    
+
 img {
 
     max-width: 500px;
     
 }
-
+#introduction  {
+    min-height:85vh;
+}
 
 #summary-gewandhaus {
     height: 630px;
@@ -852,6 +863,9 @@ img {
     
     height: 500px;
     
+}
+#contact {
+    height: 85vh;
 }
 #contactme-form {
     width: 700px;
