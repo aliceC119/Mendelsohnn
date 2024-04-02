@@ -58,7 +58,7 @@ My personal exploration website is a site for anyone interested in musical resea
    - No error were found when passing through the offical (Jigsaw) validator
      
 + Accessibility
-   - I confirmed that the colors and fonts chosen are easy to read and accessoble by running it through lighthouse on devtools
+   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse on devtools
   
 <img width="633" alt="Screenshot 2024-04-02 at 21 35 24" src="https://github.com/aliceC119/Mendelsohnn/assets/162838985/c6b01d76-9604-49a9-ad6b-09805bff4303">
 
