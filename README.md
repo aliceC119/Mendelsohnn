@@ -35,7 +35,7 @@ Credits
 
 The code to make the navigation bar is taken from the source code of Love Running Project
 The code to create the navigation sidebar is inspired by https://youtu.be/U8smiWQ8Seg
-The code to make the favicon was taken by the Love Running Project.
+The code to make the favicon and the cover text were taken by the Love Running Project.
 
 The idea of using the navigation sidebar is inspired by https://kunstsammlungen-museen.augsburg.de/mozarthaus
 The idea of making scroll down pages is inspired by https://schumann-haus-duesseldorf.de/
