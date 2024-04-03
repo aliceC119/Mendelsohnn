@@ -1,6 +1,6 @@
 # My personal exploration 
 
-My personal exploration website is a site for anyone interested in musical research topics. The site provides information for anyone who is curious about the relationshp between the famous composer and conductor Felix Mendelssohn and one of the most important concert halls in Europe. 
+My personal exploration website is a site for anyone interested in musical research topics. The site provides information for anyone who is curious about the relationshp between the famous composer and conductor Felix Mendelssohn and Gewandhaus - one of the most important concert halls in Europe. 
 
 <img width="1021" alt="homepage for evry screen sizes" src="https://github.com/aliceC119/Mendelsohnn/assets/162838985/9037109d-56f1-426c-86d9-a306697faac4">
 
@@ -32,18 +32,11 @@ My personal exploration website is a site for anyone interested in musical resea
 
 + Sections
 
-  - Each section uses a different colour scheme and images to attract the user's attention. 
-
- 
+  - Each section uses different colour schemes and images to attract the user's attention. 
     
-+ The purpose of study, methods and interview section
+  - The purpose of study, methods and interview section show the user why and how this project was produced.
   
-  - These sections show the user why and how this project was produced.
-    
-<img width="512" alt="Screenshot 2024-04-03 at 01 12 10" src="https://github.com/aliceC119/Mendelsohnn/assets/162838985/8a4d9e5b-344e-4d85-99ca-0d6c3b38a935">
-
-
-  - The "About me" section tells the user about the author's background.
+  - The "About me" section tells the user about the researcher's background.
 
   - The Introduction, Gewandhaus, Leipzig and Mendelsson sections provide information about the topic of interest to the user.
 + Contact form
@@ -65,7 +58,7 @@ My personal exploration website is a site for anyone interested in musical resea
 # Validator Testing
 
 + HTML
-   - No error were found when passing through the offical  W3 validator
+   - No error were found when passing through the offical  [W3 validator](https://validator.w3.org/)
 
 + CSS 
    - No error were found when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
@@ -84,7 +77,7 @@ My personal exploration website is a site for anyone interested in musical resea
 From the source section drop-down menu, select the Pages then choose a Main branch from the Source.
   
    - Once the Main Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://alicec119.github.io/Mendelsohnn/contact.html
+The live link can be found here - https://alicec119.github.io/Mendelsohnn/
 
 # Credits
 
